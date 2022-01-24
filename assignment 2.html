@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <head>
-    <h1>Placement Drive Registration Form</h1>
+    <h1>New Course Enrollment Form</h1>
 </head>
 <body>
-    <p>Fill all the details carefully and submit ASAP</p>
+    <p></p>
     <form>
-        <pre>  Enter your name
-        <input type="text" placeholder="First Name" maxlength="10">
-        <input type="text" placeholder="Last Name" maxlength="15"> <br>
-        Enter your emali id
-        <input type="email" placeholder="Email id"> <br>
-        Enter your Date of Birth
-        <input type="date" placeholder="DOB"> <br>
-        Enter your Branch
-        <input type="text" placeholder="Branch"> <br>
-        <input type="number" placeholder="Year of passing UG"> <br>
-        <input type="number" placeholder="UG (Aggrigate Percentage)"> <br>
-        <input type="number" placeholder="Year of passing 12th"> <br>
-        <input type="number" placeholder="12th Marks(%)"> <br>
-        <input type="number" placeholder="Year of passing 10th"> <br>
-        <input type="number" placeholder="10th Marks(%)"> <br>
-        <input type ="text" placeholder ="username" maxlength="10"> <br>
-        <input type ="password" placeholder="password" maxlength="8"> <br>
+        <pre>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="First Name" maxlength="10"/><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="Last name" maxlength="15"/> <br>
+        <label for="dob">DOB</label><br>
+        <input type="date" id="dob" name="DOB"> <br>
+        <lable for=""> Gender</lable><br>
+        <input type="radio" name="gender" value="Male" />Male<br>
+        <input type="radio" name="gender" value="Female"/>Female<br>
+        <input type="radio" name="prefer not to say" value="prefer not to say"/>Prefer not to say<br>
+        <lable for= "address">Address</lable><br>
+        <input type="text" id="address" placeholder="Address, City, State"/><br>
+        <lable for="mob">Mobile num</lable><br>
+        <input type="text" id="mob" name="Mobile no." maxlength="10"/><br>
+        <label for="">Course</label><br>
+        <input type="radio" name="course" value="Front-end web development"/>Front-end web development<br><br>
+        3 month course, skills you get from this course- HTML, CSS, JS
+        <input type="radio" name="course" value="Python language basic to advance"/>Python language from basic to advance<br><br>
+        3 month course, skills you get from this course- master python language
+        <input type="radio" name="course" value="C-Cpp language from basic to advance"/>C-Cpp language from basic to advance<br><br>
+        3 month course, skills you get from this course- master C, Cpp language
+        <input type="radio" name= "course" value="Java language from basic to advance"/>Java language from basic to advance<br><br>
+        3 month course, skills you get from this course- master Java language<br> <br>
+        Emali id<br>
+        <input type="email" placeholder="Email id"/> <br>    
         </pre>
-        <input type="submit" value="Send"> <br>
+        <input type="submit" value="Send"/> <br>
     </form>
 </body>
 </html>
